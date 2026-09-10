@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #9D00FF;
+  
+}
+
+
+.noScrollBar::-webkit-scrollbar{
+  width: 0;
+}
