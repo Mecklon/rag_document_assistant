@@ -102,8 +102,13 @@ function Home() {
       messagesContainer.current.scrollHeight;
   }, [data.messages]);
 
+  // const pdfUrl = data.selectedDocumentId
+  //   ? `http://localhost:9090/documents/${data.selectedDocumentId}/file`
+  //   : null;
+  // console.log(data);
+
   const pdfUrl = data.selectedDocumentId
-    ? `http://localhost:9090/documents/${data.selectedDocumentId}/file`
+    ? `https://rag-document-assistant-osgo.onrender.com/${data.selectedDocumentId}/file`
     : null;
   console.log(data);
 
