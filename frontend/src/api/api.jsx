@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:9090/"
+const baseURL = "https://rag-document-assistant-osgo.onrender.com/"
+
+//const baseURL = "http://localhost:9090/"
 
 const api = axios.create({
   baseURL,
